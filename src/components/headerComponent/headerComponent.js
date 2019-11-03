@@ -5,10 +5,13 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div className="header">
-        <Row>
-          <Col md={2} offset={2} className="trade_name">
-            <img src=""></img> Farmington
+      <div>
+        <Row className="header">
+          <Col md={2} offset={2}>
+            <div className="trade_name">Farmington</div>
+          </Col>
+          <Col md={4} offset={15}>
+            <div className="phone_number">Call Us Now : 123-456-7890</div>
           </Col>
         </Row>
         <Row className="sub_header">
