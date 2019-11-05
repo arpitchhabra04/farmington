@@ -6,16 +6,16 @@ class Relaible extends Component {
   render() {
     return (
       <Row className="reliable">
-        <Col md={8}>
+        <Col md={8} className="rel1">
           <Icon type="safety-certificate" />
           <p>Fully Bonded</p>
         </Col>
-        <Col md={8}>
+        <Col md={8} className="rel2">
           <Icon type="star" />
           <p>Relaible & Trustworthy</p>
         </Col>
-        <Col md={8}>
-          <Icon type="safety-file-protect" />
+        <Col md={8} className="rel3">
+          <Icon type="file-protect" />
           <p>Professional & Experienced</p>
         </Col>
       </Row>
