@@ -8,8 +8,8 @@ import Relaible from './components/reliableComponent/reliable';
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header> */}
-
+      <Header></Header>
+      {/* asjdha */}
       <AboutUs></AboutUs>
       <Testimonials></Testimonials>
       <Relaible></Relaible>
