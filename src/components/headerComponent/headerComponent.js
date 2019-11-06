@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Button } from 'antd';
+import { Row, Col, Button, Icon } from 'antd';
 import './headerComponent.css';
 class Header extends Component {
   state = {};
@@ -10,9 +10,9 @@ class Header extends Component {
           <Col md={2} offset={2}>
             <div className="trade_name">Farmington</div>
           </Col>
-          <Col md={4} offset={15}>
+          {/* <Col md={5} offset={15}>
             <div className="phone_number">Call Us Now : 123-456-7890</div>
-          </Col>
+          </Col> */}
         </Row>
         <Row className="sub_header">
           <Col md={2} offset={2}>
@@ -34,7 +34,10 @@ class Header extends Component {
             <a>Conatct</a>
           </Col>
           <Col md={2} offset={4}>
-            <a>LogIn</a>
+            <a>
+              <Icon type="login" style={{ paddingRight: 8 }} />
+              LogIn
+            </a>
           </Col>
         </Row>
       </div>

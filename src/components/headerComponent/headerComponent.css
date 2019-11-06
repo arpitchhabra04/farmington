@@ -1,6 +1,8 @@
 .sub_header {
   padding-top: 1vh;
-  font-size: 1.8vh;
+  font-size: 1.3em;
+  background: #edeceb;
+  min-height: 10vh;
 }
 a:hover {
   color: green;
@@ -14,15 +16,22 @@ a:active {
   color: green;
 }
 .trade_name {
-  font-size: 3vh;
+  font-size: 2.3em;
   font-weight: bold;
   color: black;
+  padding-top: 10px;
 }
-.phone_number {
+/* .phone_number {
   background: #5e801a;
   color: white;
   /* 
-  width: 348px;
-  text-align: center; */
-  font-size: 2vh;
+  /* width: 348px; */
+/* text-align: center;
+  font-size: 1.3em;
+  padding-top: 13px;
+  min-height: 100;
+} */
+.header {
+  background: #d3d3d3;
+  min-height: 10vh;
 }
