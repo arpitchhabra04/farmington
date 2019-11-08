@@ -5,7 +5,7 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
         <Row className="header">
           <Col md={2} offset={2}>
             <div className="trade_name">Farmington</div>

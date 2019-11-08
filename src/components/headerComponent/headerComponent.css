@@ -2,7 +2,10 @@
   padding-top: 1vh;
   font-size: 1.3em;
   background: #edeceb;
-  min-height: 10vh;
+  min-height: 8vh;
+}
+.sub_header .ant-col {
+  padding-top: 1.5vh;
 }
 a:hover {
   color: green;
@@ -19,7 +22,7 @@ a:active {
   font-size: 2.3em;
   font-weight: bold;
   color: black;
-  padding-top: 10px;
+  padding-top: 7px;
 }
 /* .phone_number {
   background: #5e801a;
@@ -33,5 +36,5 @@ a:active {
 } */
 .header {
   background: #d3d3d3;
-  min-height: 10vh;
+  min-height: 6vh;
 }
