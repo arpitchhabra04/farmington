@@ -5,13 +5,15 @@ import AboutUs from './components/aboutComponent/aboutUs';
 import Contact from './components/contactComponent/contactUs';
 import Relaible from './components/reliableComponent/reliable';
 import Services from './components/servicesComponent/services';
+import Home from './components/homeComponent.js/home';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Services></Services>
+      <Home></Home>
       <AboutUs></AboutUs>
+      <Services></Services>
       <Testimonials></Testimonials>
       <Relaible></Relaible>
       <Contact></Contact>
