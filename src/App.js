@@ -12,13 +12,13 @@ import SignForm from './components/SignFormComponent/SignForm';
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header> */}
-      {/* <Home></Home>
+      <Header></Header>
+      <Home></Home>
       <AboutUs></AboutUs>
       <Services></Services>
       <Testimonials></Testimonials>
-      <Relaible></Relaible> */}
-      <SignForm></SignForm>
+      <Relaible></Relaible>
+      {/* <SignForm></SignForm> */}
       <Contact></Contact>
     </div>
   );

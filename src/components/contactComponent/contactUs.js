@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Icon, IconFont, Form } from 'antd';
 import './contactUs.css';
-import FormComponent from './form';
+
 class Contact extends Component {
   state = {};
   render() {
@@ -12,7 +12,7 @@ class Contact extends Component {
           <p className="contact_head">Conatct Us</p>
           <p className="contact_subhead">Call or Message Us for any Help!</p>
         </div>
-        <FormComponent></FormComponent>
+
         <Row>
           <Col md={4} offset={4} className="about_logo">
             <Icon type="facebook" /> <Icon type="phone" />
