@@ -8,16 +8,19 @@ import Services from './components/servicesComponent/services';
 import Home from './components/homeComponent.js/home';
 
 import SignForm from './components/SignFormComponent/SignForm';
+import ShopHome from './components/shoping/shoping_home/shopHome';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Home></Home>
+      <ShopHome></ShopHome>
+      <Testimonials></Testimonials>
+
+      {/* <Home></Home>
       <AboutUs></AboutUs>
       <Services></Services>
-      <Testimonials></Testimonials>
-      <Relaible></Relaible>
+      <Relaible></Relaible> */}
       {/* <SignForm></SignForm> */}
       <Contact></Contact>
     </div>
